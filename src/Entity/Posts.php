@@ -14,7 +14,7 @@ class Posts
     #[ORM\Id]
     #[ORM\Column(type: "integer", unique: true)]
 
-    // id int ou uuid ?
+    // id int ou uuid
 
     private ?int $id = null;
 
